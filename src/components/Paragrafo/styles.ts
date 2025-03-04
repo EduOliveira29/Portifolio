@@ -2,7 +2,7 @@ import styled from "styled-components";
 import {Props} from '.';
 
 export const P = styled.p<Props>`
-  color: ${(props) => (props.fontSize ? props.fontSize +  'px' : '14px' )};
-  font-size: ${(props) => (props.tipo === 'principal' ? '#282a35' : '#949494' )};;
+  font-size: ${(props) => (props.fontSize ? props.fontSize +  'px' : '14px' )};
+  color: ${(props) => props.tipo === 'principal' ? props.theme.corPrincipal : props.theme.corSecundario};;
   line-height: 22px;
 `

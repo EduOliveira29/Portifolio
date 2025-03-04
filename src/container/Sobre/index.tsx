@@ -7,7 +7,7 @@ const Sobre = () => {
   return (
     <section>
       <Titulo fontSize={16}>Sobre Mim</Titulo>
-      <Paragrafo tipo="secundario">
+      <Paragrafo tipo="principal">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur magni, blanditiis quibusdam dolor fuga recusandae quo laboriosam adipisci totam architecto voluptatibus voluptatem soluta, consequatur excepturi explicabo sunt molestias est deleniti!
       </Paragrafo>
       <GithubSecao>
